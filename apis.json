@@ -6,8 +6,8 @@
         "api service provider",
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/itdashboard-gov\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -21,17 +21,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/itdashboard-gov-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/itdashboard-gov\/master\/itdashboard-gov-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/itdashboard-gov-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/itdashboard-gov\/master\/itdashboard-gov-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Developers",
             "url": "https:\/\/www.itdashboard.gov\/data_feeds"
